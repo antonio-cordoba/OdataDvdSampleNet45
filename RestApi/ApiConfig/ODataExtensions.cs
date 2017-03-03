@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 using System.Web.OData.Builder;
 using System.Web.OData.Query;
 
@@ -21,6 +18,5 @@ namespace RestApi.Extensions
                 .Page(50, 200)
                 .Count(QueryOptionSetting.Allowed);
         }
-
     }
 }
