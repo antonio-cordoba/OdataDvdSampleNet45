@@ -13,5 +13,7 @@ The solution consists of three projects:
 Build and Start the **WebHost** project and use a Chrome browser to get the model metadata from http://localhost:52525/odata . (Responses are in JSON format and IE does not support displaying these out of the box.)
 Ideally the service should be tested with a REST Client.   Chrome has excellent plug-ins for this like DHC and Postman.
 Use HTTP Requests to query the model
+
 ## Sample Service Queries
+
 ## Reference
