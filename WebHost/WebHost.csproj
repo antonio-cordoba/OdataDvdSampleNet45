@@ -113,7 +113,9 @@
       <DependentUpon>GreenBox.mdf</DependentUpon>
     </Content>
     <Content Include="log4net.xml" />
+    <Content Include="md-styles.css" />
     <Content Include="packages.config" />
+    <Content Include="readme.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
