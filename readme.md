@@ -16,5 +16,16 @@ Ideally the service should be tested with a REST Client.   Chrome has excellent 
 Use HTTP Requests to query the model
 
 ## Sample Service Queries
+>* http://localhost:52525/odata/Dvds => All Dvds (page size = 200)
+>* http://localhost:52525/odata/Aspects => (All Aspects) 
+>* http://localhost:52525/odata/Partakers?$top=5 => Top 5 Partakers
+>* http://localhost:52525/odata/Partakers?$filter=startswith(name,'Brancato') => Partakers name starting w/ Brancato
+>* http://localhost:52525/odata/Dvd_partakers?$filter=partaker_id%20eq%20197271 => Dvds for Partaker ID = 197271
+>* http://localhost:52525/odata/Dvds(98655)?$select=id,title&$expand=dvd_partaker($expand=partaker,capacity) => Dvd id=98655 w/ all Partakers expanded
 
 ## Reference
+>* http://www.odata.org/
+>* http://www.odata.org/getting-started/basic-tutorial/
+>* http://www.odata.org/getting-started/advanced-tutorial/
+
+(Keep in mind not all features in the tutorials are enabled in this solution)
