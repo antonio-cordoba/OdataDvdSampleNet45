@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d68909460d7c4270bcc0556387ad433f" Name="Diagram1">
+        <EntityTypeShape EntityType="EFSDAL.aspect" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFSDAL.capacity" Width="1.5" PointX="10.875" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFSDAL.dvd" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFSDAL.dvd_partaker" Width="1.5" PointX="8.25" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFSDAL.genre" Width="1.5" PointX="0.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFSDAL.partaker" Width="1.5" PointX="10.875" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFSDAL.rating" Width="1.5" PointX="0.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFSDAL.status" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFSDAL.studio" Width="1.5" PointX="4.625" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="EFSDAL.FK_dvd_aspect" ManuallyRouted="false" />
+        <AssociationConnector Association="EFSDAL.FK_dvd_partaker_capacity" ManuallyRouted="false" />
+        <AssociationConnector Association="EFSDAL.FK_dvd_genre" ManuallyRouted="false" />
+        <AssociationConnector Association="EFSDAL.FK_dvd_partaker_dvd" ManuallyRouted="false" />
+        <AssociationConnector Association="EFSDAL.FK_dvd_rating" ManuallyRouted="false" />
+        <AssociationConnector Association="EFSDAL.FK_dvd_status" ManuallyRouted="false" />
+        <AssociationConnector Association="EFSDAL.FK_dvd_studio" ManuallyRouted="false" />
+        <AssociationConnector Association="EFSDAL.FK_dvd_partaker_partaker" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
