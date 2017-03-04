@@ -18,7 +18,7 @@ Although there are areas for improvement in the schema, this is not the purpose 
 >* dvd_partaker provides the relationship between partakers and dvds with capacity indicating actor or director
 >* The rest of the tables are simple 1-many lists (aka lookups)
 
-![Model](./model.jpg)
+![Model](https://github.com/antonio-cordoba/OdataDvdSampleNet45/blob/master/Model.jpg)
 
 ## Execution
 Build and Start the **WebHost** project and use a Chrome browser to get the model metadata from http://localhost:52525/odata . (Responses are in JSON format.   IE does not support displaying these out of the box.)
