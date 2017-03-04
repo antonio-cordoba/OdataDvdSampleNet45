@@ -17,13 +17,13 @@ namespace EFSDAL
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public capacity()
         {
-            this.dvd_partaker = new HashSet<dvd_partaker>();
+            this.dvd_partakers = new HashSet<dvd_partaker>();
         }
     
         public int code { get; set; }
         public string name { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<dvd_partaker> dvd_partaker { get; set; }
+        public virtual ICollection<dvd_partaker> dvd_partakers { get; set; }
     }
 }

@@ -20,6 +20,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A8F791E6-2B75-4684-958F-B7F21978FE30}"
 	ProjectSection(SolutionItems) = preProject
 		md-styles.css = md-styles.css
+		Model.jpg = Model.jpg
 		readme.md = readme.md
 	EndProjectSection
 EndProject

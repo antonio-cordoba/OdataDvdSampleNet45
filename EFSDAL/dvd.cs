@@ -17,7 +17,7 @@ namespace EFSDAL
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public dvd()
         {
-            this.dvd_partaker = new HashSet<dvd_partaker>();
+            this.dvd_partakers = new HashSet<dvd_partaker>();
         }
     
         public int id { get; set; }
@@ -33,7 +33,7 @@ namespace EFSDAL
         public virtual aspect aspect { get; set; }
         public virtual genre genre { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<dvd_partaker> dvd_partaker { get; set; }
+        public virtual ICollection<dvd_partaker> dvd_partakers { get; set; }
         public virtual rating rating { get; set; }
         public virtual status status { get; set; }
         public virtual studio studio { get; set; }

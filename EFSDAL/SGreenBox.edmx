@@ -236,7 +236,7 @@
           </Key>
           <Property Name="code" Type="Int32" Nullable="false" />
           <Property Name="name" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
-          <NavigationProperty Name="dvd_partaker" Relationship="Self.FK_dvd_partaker_capacity" FromRole="capacity" ToRole="dvd_partaker" />
+          <NavigationProperty Name="dvd_partakers" Relationship="Self.FK_dvd_partaker_capacity" FromRole="capacity" ToRole="dvd_partaker" />
         </EntityType>
         <EntityType Name="dvd">
           <Key>
@@ -253,7 +253,7 @@
           <Property Name="status_code" Type="Int32" />
           <NavigationProperty Name="aspect" Relationship="Self.FK_dvd_aspect" FromRole="dvd" ToRole="aspect" />
           <NavigationProperty Name="genre" Relationship="Self.FK_dvd_genre" FromRole="dvd" ToRole="genre" />
-          <NavigationProperty Name="dvd_partaker" Relationship="Self.FK_dvd_partaker_dvd" FromRole="dvd" ToRole="dvd_partaker" />
+          <NavigationProperty Name="dvd_partakers" Relationship="Self.FK_dvd_partaker_dvd" FromRole="dvd" ToRole="dvd_partaker" />
           <NavigationProperty Name="rating" Relationship="Self.FK_dvd_rating" FromRole="dvd" ToRole="rating" />
           <NavigationProperty Name="status" Relationship="Self.FK_dvd_status" FromRole="dvd" ToRole="status" />
           <NavigationProperty Name="studio" Relationship="Self.FK_dvd_studio" FromRole="dvd" ToRole="studio" />
@@ -284,7 +284,7 @@
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="name" Type="String" MaxLength="512" FixedLength="false" Unicode="true" Nullable="false" />
-          <NavigationProperty Name="dvd_partaker" Relationship="Self.FK_dvd_partaker_partaker" FromRole="partaker" ToRole="dvd_partaker" />
+          <NavigationProperty Name="dvd_partakers" Relationship="Self.FK_dvd_partaker_partaker" FromRole="partaker" ToRole="dvd_partaker" />
         </EntityType>
         <EntityType Name="rating">
           <Key>
